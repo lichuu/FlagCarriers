@@ -21,3 +21,10 @@ Copy the `FlagCarriers` folder into `World of Warcraft/_forever_/Interface/AddOn
 - `/fc reset`: reset positions and sizes.
 - `/fc <toggle>`: turn features on or off (`callouts`, `carriers`, `fcnames`, `blizzfc`, `lowalert`, `fcicon`, `rez`, `enemies`, `assist`).
 - `/fc`: shows help and the current on/off state of every toggle.
+
+## Credits
+FlagCarriers stands on the shoulders of these, thank you:
+- **vrjones1**: the [wsg rez timer and fc/efc hp](https://wago.io/cNXgQKDMd) WeakAura, which the rez timer and carrier HP are based on.
+- **Bullsei**: [BattleGroundEnemies](https://github.com/BullseiWoWAddons/BattleGroundEnemies), the original enemy frames that inspired ours.
+- **RBGDEV**: [BattleGroundEnemiesFixed](https://www.curseforge.com/wow/addons/battlegroundenemiesfixed), whose approach to targeting carriers and range checks on the modern client showed us the way.
+- The **WeakAuras** team, for the addon the original auras were built in.
