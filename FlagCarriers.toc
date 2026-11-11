@@ -1,0 +1,16 @@
+## Interface: 16001
+## Title: FlagCarriers
+## Notes: Warsong Gulch callouts, flag carrier tracker, rez timer, auto-assist and enemy frames.
+## Author: piktro
+## Version: 0.1.0
+## SavedVariables: FlagCarriersDB
+## IconTexture: 132486
+
+Core.lua
+Callouts.lua
+Carriers.lua
+RezTimer.lua
+AutoAssist.lua
+Enemies.lua
+BlizzCarriers.lua
+RaidFlag.lua
