@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34302c"/><stop offset="1" stop-color="#141312"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.58" cy="0.42" r="0.55">
+      <stop offset="0" stop-color="#d97757" stop-opacity="0.55"/>
+      <stop offset="0.6" stop-color="#d97757" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#d97757" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3a98c"/><stop offset="0.5" stop-color="#d97757"/><stop offset="1" stop-color="#8f4028"/>
+    </linearGradient>
+    <linearGradient id="cloth" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ee906e"/><stop offset="1" stop-color="#c25e3d"/>
+    </linearGradient>
+    <linearGradient id="folds" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="0.20" stop-color="#fff" stop-opacity="0.22"/>
+      <stop offset="0.46" stop-color="#000" stop-opacity="0.26"/>
+      <stop offset="0.72" stop-color="#fff" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.30"/>
+    </linearGradient>
+    <linearGradient id="pole" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fffdf6"/><stop offset="0.55" stop-color="#f0eee6"/><stop offset="1" stop-color="#b3aa98"/>
+    </linearGradient>
+    <radialGradient id="cap" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#ffc4ab"/><stop offset="0.55" stop-color="#d97757"/><stop offset="1" stop-color="#8f4028"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="6" dy="14" stdDeviation="12" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5"/></filter>
+    <clipPath id="clothClip"><path d="M168,132 C228,98 262,166 322,140 C382,114 402,108 424,134 L424,310 C402,284 382,290 322,316 C262,342 228,274 168,308 Z"/></clipPath>
+  </defs>
+
+  <rect x="16" y="16" width="480" height="480" rx="108" fill="url(#plate)"/>
+  <rect x="16" y="16" width="480" height="480" rx="108" fill="url(#glow)"/>
+  <rect x="23" y="23" width="466" height="466" rx="101" fill="none" stroke="url(#rim)" stroke-width="14"/>
+  <rect x="36" y="36" width="440" height="440" rx="90" fill="none" stroke="#fff" stroke-opacity="0.06" stroke-width="2"/>
+
+  <g transform="rotate(-7 256 256)" filter="url(#shadow)">
+    <path d="M168,132 C228,98 262,166 322,140 C382,114 402,108 424,134 L424,310 C402,284 382,290 322,316 C262,342 228,274 168,308 Z" fill="url(#cloth)"/>
+    <path d="M168,236 C228,202 262,270 322,244 C382,218 402,212 424,238 L424,274 C402,248 382,254 322,280 C262,306 228,238 168,272 Z" fill="#f0eee6"/>
+    <path d="M168,132 C228,98 262,166 322,140 C382,114 402,108 424,134 L424,310 C402,284 382,290 322,316 C262,342 228,274 168,308 Z" fill="url(#folds)"/>
+    <path d="M168,132 C228,98 262,166 322,140 C382,114 402,108 424,134 L424,139 C402,113 382,119 322,145 C262,171 228,103 168,137 Z" fill="#fff" fill-opacity="0.35"/>
+    <g clip-path="url(#clothClip)">
+      <path d="M296,142 Q296,186 340,186 Q296,186 296,230 Q296,186 252,186 Q296,186 296,142 Z" fill="#fff" filter="url(#soft)" opacity="0.7"/>
+    </g>
+    <path d="M296,146 Q296,186 336,186 Q296,186 296,226 Q296,186 256,186 Q296,186 296,146 Z" fill="#fffdf6"/>
+    <rect x="148" y="104" width="22" height="338" rx="11" fill="url(#pole)" stroke="#141312" stroke-width="3"/>
+    <circle cx="159" cy="98" r="21" fill="url(#cap)" stroke="#141312" stroke-width="3"/>
+  </g>
+
+  <path d="M398,348 Q398,368 418,368 Q398,368 398,388 Q398,368 378,368 Q398,368 398,348 Z" fill="#f0eee6" opacity="0.9"/>
+  <path d="M432,312 Q432,322 442,322 Q432,322 432,332 Q432,322 422,322 Q432,322 432,312 Z" fill="#d97757"/>
+  <path d="M356,400 Q356,408 364,408 Q356,408 356,416 Q356,408 348,408 Q356,408 356,400 Z" fill="#d97757" opacity="0.8"/>
+</svg>

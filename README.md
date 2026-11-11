@@ -1,6 +1,6 @@
-<img src="icon.png" width="96" align="right" alt="FlagCarriers icon">
+<p align="center"><img src="media/logo.svg" width="180" alt="FlagCarriers logo"></p>
 
-# FlagCarriers
+<h1 align="center">FlagCarriers</h1>
 
 A Warsong Gulch addon for **WoW Forever** (interface 16001).
 
