@@ -26,5 +26,5 @@ Copy the `FlagCarriers` folder into `World of Warcraft/_forever_/Interface/AddOn
 FlagCarriers stands on the shoulders of these, thank you:
 - **vrjones1**: the [wsg rez timer and fc/efc hp](https://wago.io/cNXgQKDMd) WeakAura, which the rez timer and carrier HP are based on.
 - **Bullsei**: [BattleGroundEnemies](https://github.com/BullseiWoWAddons/BattleGroundEnemies), the original enemy frames that inspired ours.
-- **RBGDEV**: [BattleGroundEnemiesFixed](https://www.curseforge.com/wow/addons/battlegroundenemiesfixed), whose approach to targeting carriers and range checks on the modern client showed us the way.
+- **RBGDEV**: [BattleGroundEnemiesFixed](https://www.curseforge.com/projects/1444858), whose approach to targeting carriers and range checks on the modern client showed us the way.
 - The **WeakAuras** team, for the addon the original auras were built in.
